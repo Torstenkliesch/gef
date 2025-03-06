@@ -32,6 +32,10 @@ body {
 
 /* Styles für Hero Section */
 
+.align-items-center {
+    margin-bottom: 30px;
+}
+
 .lead {
     font-family: "Rethink Sans", serif;
     color: black;    
@@ -68,6 +72,7 @@ body {
 
 
 /* Styles für Navbar*/
+
 
 .nav-link {
     font-family: "Rethink Sans", serif; 
@@ -141,6 +146,9 @@ body {
 /* Styles für den Zeitplan */
 
 .zeitplan {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     background-image: url("images/Vegan-Festival.jpg");
     background-size: cover;
     min-height: 80vh;  
@@ -216,7 +224,10 @@ body {
 
 /* Styles für Bands */ 
 
+
 .bandssection {
+    display: flex;
+    flex-wrap: wrap;
     background-image: url("images/concert3.jpg");
     background-size: cover;
     min-height: 80vh;
@@ -246,16 +257,58 @@ body {
     font-weight: 700;
     color: yellow;
 }
-    
+
 .bands-sectionp {
     background: black;
     padding-bottom: 0;
-}
+    }
 
 /* Styles für Div Site-Footer-Top*/
 
+
+
 .site-footer-top {
-    background-color: black;   
+    background-color: black;  
+
+}
+
+.site-footer-title {
+    font-family: "Rethink Sans", serif; 
+    font-size: 30px;
+    color: #F8EB22;
+}
+
+.site-footer-link {
+    font-family: "Rethink Sans", serif; 
+    font-size: 18px;
+    color: white;   
+}
+
+
+.copyright-text {
+    font-family: "Rethink Sans", serif; 
+    font-size: 18px;
+    color: white; 
+}
+
+.mt-5 {
+    width: 40%;
+}
+
+.mt-lg-5 {
+    width: 60%;
+}
+
+.ax {
+    font-family: "Rethink Sans", serif; 
+    font-size: 40px;
+    color: white;  
+}
+
+.text-white-d-flex {
+    font-family: "Rethink Sans", serif; 
+    font-size: 18px;
+    color: white;
 }
 
 .text-white-footer {
@@ -263,11 +316,11 @@ body {
     font-size: 30px;
     color: white;
 }
-
+/*
 .mb-lg-0 {
     width: 100%;
 }
-
+*/
 .social-icon-link {
     background: black;
 }
