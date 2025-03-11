@@ -1,24 +1,50 @@
 body {
-    background-color: #F8EB22
+    background-color: #F8EB22;
 }
 
-/* Styles für Logo Section */
+/* Styles für Navbar*/
 
-.LogoSection {
-    padding: 120px 0px 30px 0px;  
-    background-color: white; 
+.navbar-brand {
+    margin-right: 100px; 
 }
 
-.Logo {
-    margin: 0px 20px 0px 0px;
-    padding-left: 60px;
+.navbar-nav .nav-link {
+    font-family: "Rethink Sans", serif; 
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+
 }
+
+.navbar-nav .nav-link.active {
+    font-family: "Rethink Sans", serif; 
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    font-family: "Rethink Sans", serif; 
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background: black;
+}
+
+.navbar-toggler .navbar-toggler-icon:before,
+.navbar-toggler .navbar-toggler-icon:after {
+    background: black;
+}
+
 
 /* Styles für Header */
 
 .Top {
     font-family: "Rethink Sans", serif;
-    padding: 40px 0px 0px 0px; 
+    padding: 120px 0px 0px 0px; 
 }
   
 .fullsize {
@@ -30,11 +56,18 @@ body {
     width: 100%;
 }
 
+
 /* Styles für Hero Section */
 
 .align-items-center {
     margin-bottom: 30px;
 }
+
+.py-5 {
+    padding-top: 5px;
+    margin-top: 5px;
+    
+    }
 
 .lead {
     font-family: "Rethink Sans", serif;
@@ -48,11 +81,9 @@ body {
     color: rgba(0, 0, 0, 0.893);     
 }
 
-/*
-.col-md-5 offset-md-1 mb-3 {
-    font-family: "Rethink Sans", serif; 
+.tk1 {
+    padding-bottom: 30px;
 }
-    */
 
 /* Text-Styles für Datums- und Ortangabe und Footer Header*/
 
@@ -70,38 +101,36 @@ body {
 }
 
 
-
-/* Styles für Navbar*/
-
-
-.nav-link {
-    font-family: "Rethink Sans", serif; 
-    font-size: 30px;
-    margin-right: 100px;
+.social-icon-link {
+    border-radius: 100%;
 }
 
-.navbar-brand {
-    font-family: "Rethink Sans", serif; 
-    font-size: 30px;
-    margin-right: 100px; 
+/* Styles für Logo Section */
+
+.container-Logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.LogoSection-top {
+    background-color: #F8EB22; 
 }
 
-.nav-link p-0 text-body-secondary {
-    font-family: "Rethink Sans", serif; 
+.LogoSection {
+    padding: 0px 0px 30px 0px;  
+    background-color: #F8EB22; 
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
-    color: yellow;
-}
-
-.navbar navbar-expand-lg navbar-dark fixed-top bg-dark {
-    margin-bottom: 190px;
+.logo-top {
+    font-family: "Rethink Sans", serif;
+    font-size: 1.5rem;
+    color: black; 
 }
 
 /* Styles für Programm und Zeitplan */
 
 .section-padding {
-    background: white;
+    background: #F8EB22;
     padding-bottom: 0;
 }
 
@@ -113,7 +142,7 @@ body {
 
 .mb-4 {
     font-family: "Rethink Sans", serif;
-    font-size: 72px;
+    font-size: 4rem;
     font-weight: 700; 
     color: black; 
 }
@@ -151,6 +180,8 @@ body {
     width: 100%;
     background-image: url("images/Vegan-Festival.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: 80vh;  
     padding-bottom: 100px; 
     padding-top: 100px; 
@@ -158,7 +189,7 @@ body {
 
 .mb-z {
     font-family: "Rethink Sans", serif;
-    font-size: 72px;
+    font-size: 4rem;
     font-weight: 700; 
     color: white; 
     padding-bottom: 50px;
@@ -225,14 +256,19 @@ body {
 /* Styles für Bands */ 
 
 
+.custom-video {
+    position: relative;
+    min-height: 60vh;
+}
 .bandssection {
     display: flex;
     flex-wrap: wrap;
-    background-image: url("images/concert3.jpg");
+    /*background-image: url("images/concert3.jpg");
     background-size: cover;
-    min-height: 80vh;
-    position: relative;
-    color: yellow;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;*/
+    color: #F8EB22;
     text-shadow: 2px 2px 2px rgb(0,0,0,.2);
     font-family: "Rethink Sans", serif;
     font-size: 72px;
@@ -242,20 +278,25 @@ body {
 .bands-overlay {
     position: absolute;
     margin: 0 0 0 0;
-    padding-top: 20px ;
+    padding-top: 100px ;
     width: 100%;
     height: 100%;
+    font-family: "Rethink Sans", serif;
+    font-size: 4rem;
+    font-weight: 700; 
+    color: #F8EB22; 
 }
     
 .bands-overlay2 {
     position: absolute;
     margin: 0 0 0 0;
-    padding-top: 200px ;
+    padding-top: 240px ;
     width: 100%;
     height: 100%;
-    font-size: 56px;
+    font-family: "Rethink Sans", serif;
+    font-size: 3rem;
     font-weight: 700;
-    color: yellow;
+    color: #F8EB22;
 }
 
 .bands-sectionp {
@@ -265,30 +306,36 @@ body {
 
 /* Styles für Div Site-Footer-Top*/
 
-
+.site-footer {
+    background-color: #F8EB22;  
+}
 
 .site-footer-top {
-    background-color: black;  
+    background-color: #F8EB22;  
 
 }
 
 .site-footer-title {
     font-family: "Rethink Sans", serif; 
     font-size: 30px;
-    color: #F8EB22;
+    color: black;
 }
 
 .site-footer-link {
     font-family: "Rethink Sans", serif; 
     font-size: 18px;
-    color: white;   
+    color: black;   
 }
 
-
+.site-footer-item:hover {
+    font-family: "Rethink Sans", serif; 
+    font-size: 18px;
+    color: white;   
+}
 .copyright-text {
     font-family: "Rethink Sans", serif; 
     font-size: 18px;
-    color: white; 
+    color: black; 
 }
 
 .mt-5 {
@@ -302,7 +349,7 @@ body {
 .ax {
     font-family: "Rethink Sans", serif; 
     font-size: 40px;
-    color: white;  
+    color: black;  
 }
 
 .text-white-d-flex {

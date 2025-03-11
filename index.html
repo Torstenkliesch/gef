@@ -38,73 +38,68 @@
 
 <body>
 
-  <!-- Header Navbar von Bootstrap -->
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-       <div class="container-fluid">
-          <img src="images/GoodEnergyFestival_Logo.jpg" class="navbar-brand" alt="Logo" width="200px">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section_2">Das Festival</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section_3">Programm</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section_8">Bands</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section_5">Zeitplan</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Anfahrt</a>
-              </li>
-            </ul>
-          </div>
+<!-- Header Navbar von Bootstrap -->
+
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #F8EB22;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/GoodEnergyFestival_Logo.jpg" alt="Logo" width="200px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section_1">Das Festival</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section_2">Programm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section_3">Zeitplan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section_4">Bands</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section_5">Anfahrt</a>
+          </li>
+        </ul>
+      
       </div>
-    </nav>
-  </div>
-  
-  <!-- Header Zeile-->
-
-  <div class="LogoSection">
-    <div class="container">
-      <div class="row justify-content-center">
-        <img src="images/Logos.png" class="Logo" alt="Logos">
-       </div>
     </div>
-  </div>
+  </nav>
 
+  
   <!-- Festival Titel -->
 
   <div class="Top">
     <div class="container">
       <div class="row justify-content-center header-top">
-        <img src="images/Header_Image.png" alt="Header" >
+        <img src="images/Header_Image_neu.png" alt="Header" >
       </div>
     </div>   
   </div>
 
   <!-- Header Hero von Bootstrap-->
 
-  <section id="section_2">
+  <section id="section_1">
     <div class="container d-flex justify-content-center align-items-center">
       <div class="row">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <img src="images/Festival_Plakat_1_ohne_Titel.png" class="d-block mx-lg-auto img-fluid" alt="Good Energy Festival" height="500" loading="lazy">
+            <img src="images/Festival_Plakat_1_ohne_Titel.png" class="d-block mx-lg-auto img-fluid" alt="Good Energy Festival" loading="lazy">
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Energiewende </h1>
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">und das gute Leben</h1>
-            <p class="lead">Wir bringen Energiewende und Festival zusammen. </p>
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Einfach mal </h1>
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 tk1">die Energiewende feiern!</h1>
+            <p class="lead">Wir bringen Energiewende und Festival zusammen.<br>Einen Tag lang könnt Ihr an zahlreichen Mitmach-Stationen,
+            bei verschiedenen Workshops, in Vorträgen und Diskussionsrunden spannendes zur Energiewende erleben und erfahren.
+            <p class="lead">Die Energiewende steht für ein gutes Leben künftiger Generationen und das wollen wir feiern. Deshalb legen tagsüber DJs für Euch auf, am Abend 
+            sorgen Bands für die Energie zum Tanzen.</p>  
+            </p>
           </div>
         </div>
         <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
@@ -148,11 +143,26 @@
         </div>
       </div>
     </div>
+
+    <!-- Logo Zeile-->
+
+    <div class="LogoSection-top">
+      <div class="container-Logos">
+        <p class="logo-top">Eine Veranstaltung von:</p>
+      </div>
+    </div>
+
+
+    <div class="LogoSection">
+        <div class="container-Logos">
+          <img src="images/Logos_neu.png" class="Logo" alt="Logos">
+         </div>
+    </div>
   </section>
 
   <!-- Programm Part -->
 
-  <section class="artists-section section-padding" id="section_3">
+  <section class="artists-section section-padding" id="section_2">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 text-center programm-header">
@@ -168,44 +178,39 @@
               
               <div class="artists-thumb">
                   <div class="artists-image-wrap">
-                      <img src="images/BMX2_Unterschrift.jpg" class="artists-image img-fluid">
+                    <a class="pagejump" href="http://www.google.de"><img src="images/BMX2_Unterschrift.jpg" class="artists-image img-fluid"></a>
                   </div>
               </div>
 
               <div class="artists-thumb">
                 <div class="artists-image-wrap">
-                  <img src="images/Fishbowl_Unterschrift.jpg" class="artists-image img-fluid">
+                  <a class="pagejump" href="http://www.google.de"><img src="images/Fishbowl_Unterschrift.jpg" class="artists-image img-fluid"></a>
                 </div>
               </div>
 
               <div class="artists-thumb">
                 <div class="artists-image-wrap">
-                    <img src="images/Familienkino_Unterschrift.jpg" class="artists-image img-fluid">
+                  <a class="pagejump" href="http://www.google.de"><img src="images/Familienkino_Unterschrift.jpg" class="artists-image img-fluid"></a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-5 col-12">
                 <div class="artists-thumb">
-                    <div class="artists-image-wrap">
-                        <img src="images/Mitmach-Stationen_Unterschrift.jpg" class="artists-image img-fluid">
-                    </div>
+                    <a class="pagejump" href="http://www.google.de"><img src="images/Mitmach-Stationen_Unterschrift.jpg" class="artists-image img-fluid"></a>
+                    
                 </div>
 
                 <div class="artists-thumb">
-                    <img src="images/Familienprogramm_Unterschrift.jpg" class="artists-image img-fluid">
+                  <a class="pagejump" href="http://www.google.de"><img src="images/Familienprogramm_Unterschrift.jpg" class="artists-image img-fluid"></a>
                 </div>
 
                 <div class="artists-thumb">
-                  <div class="artists-image-wrap">
-                      <img src="images/Foodtrucks_Unterschrift.jpg" class="artists-image img-fluid">
-                  </div>
+                  <a class="pagejump" href="http://www.google.de"><img src="images/Foodtrucks_Unterschrift.jpg" class="artists-image img-fluid"></a>
                 </div>
 
                 <div class="artists-thumb">
-                  <div class="artists-image-wrap">
-                    <img src="images/Radcheck_Unterschrift.jpg" class="artists-image img-fluid">
-                  </div>
+                  <a class="pagejump" href="http://www.google.de"><img src="images/Radcheck_Unterschrift.jpg" class="artists-image img-fluid"></a>
                 </div>
             </div>
 
@@ -214,7 +219,7 @@
   </section>
 
   <!-- Zeitplan -->
-  <section class="schedule-section section-padding" id="section_5">
+  <section class="schedule-section section-padding" id="section_3">
     <div class="zeitplan">
       <div class="container">
         <div class="row">
@@ -300,16 +305,20 @@
 
   <!-- Bands Section -->
 
-  <section class="schedule-section section-padding bands-sectionp" id="section_8">
-    
-    <div class="bandssection"> 
-      <div class="row justify-content-center bands-overlay">
-          Bands
-      </div>
-      <div class="row justify-content-center bands-overlay2">
+  
+
+  <section id="section_4">
+      <div class="bandssection">
+        <video autoplay loop muted class="custom-video" poster>
+            <source src="videos/Video1.mp4" type="video/mp4">
+        </video>
+        <h2 class="row justify-content-center bands-overlay">
+            Bands
+        </h2>
+        <h2 class="row justify-content-center bands-overlay2">
             Rapper YZ // The Shadels
+        </h2>
       </div>
-    </div>
   </section>
 
 

@@ -1,0 +1,356 @@
+body {
+    background-color: #F8EB22
+}
+
+/* Styles für Logo Section */
+
+.LogoSection {
+    padding: 120px 0px 30px 0px;  
+    background-color: white; 
+}
+
+.Logo {
+    margin: 0px 20px 0px 0px;
+    padding-left: 60px;
+}
+
+/* Styles für Header */
+
+.Top {
+    font-family: "Rethink Sans", serif;
+    padding: 40px 0px 0px 0px; 
+}
+  
+.fullsize {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.row justify-content-center header-top {
+    width: 100%;
+}
+
+/* Styles für Hero Section */
+
+.align-items-center {
+    margin-bottom: 30px;
+}
+
+.lead {
+    font-family: "Rethink Sans", serif;
+    color: black;    
+}
+
+.display-5 fw-bold text-body-emphasis lh-1 mb-3 {
+    font-family: "Rethink Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.893);     
+}
+
+/*
+.col-md-5 offset-md-1 mb-3 {
+    font-family: "Rethink Sans", serif; 
+}
+    */
+
+/* Text-Styles für Datums- und Ortangabe und Footer Header*/
+
+
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-black-rgb),var(--bs-text-opacity))!important;
+    font-family: "Rethink Sans", serif; 
+    font-size: 30px;
+}
+
+.me {
+    padding-right: 8px;
+    margin: 0;
+}
+
+
+
+/* Styles für Navbar*/
+
+
+.nav-link {
+    font-family: "Rethink Sans", serif; 
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+.navbar-brand {
+    margin-right: 100px; 
+}
+
+.nav-link p-0 text-body-secondary {
+    font-family: "Rethink Sans", serif; 
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+    color: yellow;
+}
+/*
+.fixed-top {
+    padding-bottom: 0 px;
+}
+*/
+/*
+.navbar navbar-expand-lg navbar-dark fixed-top bg-dark {
+    margin-bottom: 190px;
+}
+*/
+/* Styles für Programm und Zeitplan */
+
+.section-padding {
+    background: #F8EB22;
+    padding-bottom: 0;
+}
+
+/* Styles für das Programm */
+
+.pagejump {
+    width: 100%;
+}
+
+.mb-4 {
+    font-family: "Rethink Sans", serif;
+    font-size: 72px;
+    font-weight: 700; 
+    color: black; 
+}
+
+.text-body-secondary {
+    font-family: "Rethink Sans", serif; 
+    color: black;
+    font-size: 20px;
+}
+
+.programm-header{
+    padding-bottom: 40px;
+}
+
+.row .justify-content-center .over-programm {
+    position: absolute;
+    margin: 0 0 0 0;
+    padding-top: 50px ;
+    width: 100%;
+    height: 100%;   
+}
+
+.artists-thumb {
+    position: relative;
+    font-family: "Rethink Sans", serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Styles für den Zeitplan */
+
+.zeitplan {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url("images/Vegan-Festival.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;  
+    padding-bottom: 100px; 
+    padding-top: 100px; 
+}
+
+.mb-z {
+    font-family: "Rethink Sans", serif;
+    font-size: 72px;
+    font-weight: 700; 
+    color: white; 
+    padding-bottom: 50px;
+}
+
+.schedule-table .pop-background-image {
+    background-image: url("images/Vegan-Festival.jpg");
+    opacity: 80%;
+}
+
+.schedule-table .pop-background-image1 {
+    background-image: url("images/kino.jpg");
+    opacity: 80%;
+}
+
+.schedule-table .pop-background-image2 {
+    background-image: url("images/Balkonmodul_bauen.jpg");
+    opacity: 80%;
+    height: 250px;
+}
+
+.schedule-table .pop-background-image3 {
+    background-image: url("images/yoga.jpeg");
+    opacity: 80%;
+    height: 250px;
+}
+
+.schedule-table .pop-background-image4 {
+    background-image: url("images/Fahrraddisko1.jpg");
+    opacity: 80%;
+    height: 250px;
+}
+
+.schedule-table .pop-background-image7 {
+    background-image: url("images/concert-1854113_1280.jpg");
+    opacity: 80%;
+    height: 250px;
+}
+
+.schedule-table .pop-background-image6 {
+    background-image: url("images/Vortrag.png");
+    opacity: 80%;
+    height: 250px;
+}
+
+.schedule-table thead th {
+    background-color: #212529;
+    border-right: 1px solid #363a3e;
+    color: white;
+    font-family: "Rethink Sans", serif;
+    font-size: 20px;
+}
+
+.schedule-table th, .schedule-table tr, .schedule-table td {
+    font-family: "Rethink Sans", serif;
+    font-size: 20px;
+}
+
+.zeitplan-h4 {
+    color: white;
+    font-weight: 700;
+}
+
+/* Styles für Bands */ 
+
+
+.custom-video {
+    position: relative;
+    z-index: -1;
+
+}
+.bandssection {
+    display: flex;
+    flex-wrap: wrap;
+    /*background-image: url("images/concert3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    position: relative;*/
+    color: gray;
+    text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+    font-family: "Rethink Sans", serif;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.bands-overlay {
+    position: absolute;
+    margin: 0 0 0 0;
+    padding-top: 60px ;
+    width: 100%;
+    height: 100%;
+}
+    
+.bands-overlay2 {
+    position: absolute;
+    margin: 0 0 0 0;
+    padding-top: 200px ;
+    width: 100%;
+    height: 100%;
+    font-size: 56px;
+    font-weight: 700;
+    color: gray;
+}
+
+.bands-sectionp {
+    background: black;
+    padding-bottom: 0;
+    }
+
+/* Styles für Div Site-Footer-Top*/
+
+.site-footer {
+    background-color: #F8EB22;  
+}
+
+.site-footer-top {
+    background-color: #F8EB22;  
+
+}
+
+.site-footer-title {
+    font-family: "Rethink Sans", serif; 
+    font-size: 30px;
+    color: black;
+}
+
+.site-footer-link {
+    font-family: "Rethink Sans", serif; 
+    font-size: 18px;
+    color: black;   
+}
+
+
+.copyright-text {
+    font-family: "Rethink Sans", serif; 
+    font-size: 18px;
+    color: black; 
+}
+
+.mt-5 {
+    width: 40%;
+}
+
+.mt-lg-5 {
+    width: 60%;
+}
+
+.ax {
+    font-family: "Rethink Sans", serif; 
+    font-size: 40px;
+    color: black;  
+}
+
+.text-white-d-flex {
+    font-family: "Rethink Sans", serif; 
+    font-size: 18px;
+    color: white;
+}
+
+.text-white-footer {
+    font-family: "Rethink Sans", serif; 
+    font-size: 30px;
+    color: white;
+}
+/*
+.mb-lg-0 {
+    width: 100%;
+}
+*/
+.social-icon-link {
+    background: black;
+}
+
+/* unklar wofür das war:
+.mb-0 {
+    font-family: "Rethink Sans", serif;
+    color: black;
+    font-size: 2rem;
+}
+*/
+
+/* Aktuell unklar wofür das war:
+.btn-primary {
+    background-color: black;   
+    border-color: black;
+}
+
+*/
