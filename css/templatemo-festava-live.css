@@ -881,7 +881,7 @@ strong {
 
 .social-icon-link {
   background: var(--secondary-color);
-  border-radius: var(--border-radius-large);
+  border-radius: 50%;;
   color: var(--white-color);
   font-size: var(--copyright-font-size);
   display: block;

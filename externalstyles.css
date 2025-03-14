@@ -4,8 +4,9 @@ body {
 
 /* Styles für Navbar*/
 
-.navbar-brand {
-    margin-right: 100px; 
+.navbar-brand-img {
+    margin-right: 80px;
+    padding-left: 40px;
 }
 
 .navbar-nav .nav-link {
@@ -39,6 +40,18 @@ body {
     background: black;
 }
 
+.social-share {
+    margin-left: 67px;
+    margin-top: 15px;
+}
+
+.social-icon-link-navigation {
+    border-radius: 100%;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 
 /* Styles für Header */
 
@@ -56,6 +69,9 @@ body {
     width: 100%;
 }
 
+.title-top {
+    margin-top: 7px;
+}
 
 /* Styles für Hero Section */
 
@@ -74,16 +90,89 @@ body {
     color: black;    
 }
 
-.display-5 fw-bold text-body-emphasis lh-1 mb-3 {
+.display-5 .fw-bold .text-body-emphasis .lh-1 .mb-3 {
     font-family: "Rethink Sans", serif;
     font-weight: 100;
     font-style: normal;
-    color: rgba(0, 0, 0, 0.893);     
+    color: black;     
 }
 
 .tk1 {
     padding-bottom: 30px;
 }
+
+.container-hero {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: 200px auto;
+    gap: 20px;
+    width: 100%;
+    }
+
+.grid-item {
+    grid-row-start: 1; 
+    grid-row-end: 1; 
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+}
+
+.grid-image {
+    grid-row-start: 1; 
+    grid-row-end: 4; 
+    grid-column-start: 2;
+    grid-column-end: 2;
+    
+
+}
+
+.grid-item-2 {
+    grid-row-start: 3; 
+    grid-row-end: 4; 
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+}
+
+.hero-h1 {
+    font-family: "Rethink Sans", serif;
+    font-size: 2rem;
+    font-style: bold; 
+    color: #F8EB22; 
+    background-color: black;
+    margin-bottom: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 20px;
+    margin-right: 8rem;
+    margin-left: 15px;
+  
+}
+
+.hero-h2 {
+    font-family: "Rethink Sans", serif;
+    font-size: 2.5rem;
+    font-style: bold; 
+    color: black; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 20px;
+}
+
+.hero-p {
+    font-family:"Rethink Sans", serif;
+    font-size: 1.5rem;
+    color: black; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 
 /* Text-Styles für Datums- und Ortangabe und Footer Header*/
 
@@ -101,9 +190,6 @@ body {
 }
 
 
-.social-icon-link {
-    border-radius: 100%;
-}
 
 /* Styles für Logo Section */
 
@@ -117,7 +203,7 @@ body {
 }
 
 .LogoSection {
-    padding: 0px 0px 30px 0px;  
+    padding: 0px 0px 0px 0px;  
     background-color: #F8EB22; 
 }
 
@@ -127,24 +213,133 @@ body {
     color: black; 
 }
 
+/* Styles für Schirmherr-Section */
+
+.container-Schirmherr {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-rows: 1fr 2fr;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.Schirmherr-h2 {
+    background: white;
+    font-family: "Rethink Sans", serif;
+    color: black;
+    font-size: 1.3rem;
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.Schirmherr-Text {
+    background: white;
+    font-family: "Rethink Sans", serif;
+    color: black;
+    font-size: 1.2rem;
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.grid-image-schirmherr {
+    grid-column-start: 1; 
+    grid-column-end: 1;
+    
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
 /* Styles für Programm und Zeitplan */
 
 .section-padding {
     background: #F8EB22;
-    padding-bottom: 0;
+    padding-top: 100px;
+    padding-bottom: 0px;
 }
 
 /* Styles für das Programm */
 
-.pagejump {
+.container-programm {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-rows: 1fr 1fr;
     width: 100%;
+    margin-inline: auto;
+    
 }
 
+.stacked {
+    display: grid;
+}
+
+.stacked > * {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.item-programm {
+    border: solid black;
+}
+
+.item-2-programm {
+    border: solid black;
+}
+
+.item-overlay {
+    font-family: "Rethink Sans", serif;
+    font-size: 2.5rem;
+    font-weight: 600; 
+    color: black;
+    background: white;
+    align-self: end;
+    z-index: 10;
+    margin-bottom: 50px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    box-shadow: 0 .25 1rem rgb(0 0 0 / .1);
+}
+
+.item-overlay-link {
+    font-family: "Rethink Sans", serif;
+    font-size: 2.5rem;
+    font-weight: 600; 
+    color: black;  
+}
+
+.item-overlay-link:hover {
+    font-family: "Rethink Sans", serif;
+    font-size: 2.5rem;
+    font-weight: 600; 
+    color: #F8EB22;
+}
 .mb-4 {
     font-family: "Rethink Sans", serif;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 700; 
     color: black; 
+    padding-bottom: 20px;
 }
 
 .text-body-secondary {
@@ -153,8 +348,8 @@ body {
     font-size: 20px;
 }
 
-.programm-header{
-    padding-bottom: 40px;
+.programm-header {
+    color: white;
 }
 
 .row .justify-content-center .over-programm {
@@ -187,6 +382,16 @@ body {
     padding-top: 100px; 
 }
 
+.mb-zeitplan {
+    font-family: "Rethink Sans", serif;
+    font-size: 2.5rem;
+    font-weight: 700; 
+    color: black; 
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+
 .mb-z {
     font-family: "Rethink Sans", serif;
     font-size: 4rem;
@@ -201,7 +406,7 @@ body {
 }
 
 .schedule-table .pop-background-image1 {
-    background-image: url("images/kino.jpg");
+    background-image: url("images/walle1.jpg");
     opacity: 80%;
 }
 
@@ -312,6 +517,7 @@ body {
 
 .site-footer-top {
     background-color: #F8EB22;  
+    margin: 0px;
 
 }
 
@@ -336,6 +542,30 @@ body {
     font-family: "Rethink Sans", serif; 
     font-size: 18px;
     color: black; 
+}
+
+.container-Logos-Footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 55px;
+}
+
+.LogoSection-Footer {
+    padding: 0px 0px 0px 0px;  
+    background-color: #F8EB22; 
+    margin-bottom: 50px;
+}
+
+.footer-top {
+  margin-left: 40px;  
+}
+
+.logo-top-Footer {
+    font-family: "Rethink Sans", serif;
+    font-size: 1.5rem;
+    color: black; 
+    text-align: left;
 }
 
 .mt-5 {
@@ -371,6 +601,87 @@ body {
 .social-icon-link {
     background: black;
 }
+
+
+/* Media Queries */
+
+@media (max-width: 1400px) {
+    
+    .container-hero {
+        margin-top: 60px;
+        margin-bottom: 70px;
+        margin-left: 40px;
+    }
+    
+    .header-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-rows: 200px auto;
+        gap: 20px;
+        width: 100%;
+        }
+    
+    .grid-item {
+        grid-row-start: 1; 
+        grid-row-end: 1; 
+        grid-column-start: 1;
+        grid-column-end: 1;
+    
+    }
+    
+    .grid-image {
+        grid-row-start: 1; 
+        grid-row-end: 4; 
+        grid-column-start: 2;
+        grid-column-end: 2;
+        
+    
+    }
+    
+    .grid-item-2 {
+        grid-row-start: 3; 
+        grid-row-end: 4; 
+        grid-column-start: 1;
+        grid-column-end: 1;
+    
+    }
+    
+    .hero-h1 {
+        font-family: "Rethink Sans", serif;
+        font-size: 2rem;
+        font-style: bold; 
+        color: #F8EB22; 
+        background-color: black;        
+        margin-bottom: 5px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .hero-h2 {
+        font-family: "Rethink Sans", serif;
+        font-size: 2.5rem;
+        font-style: bold; 
+        color: black; 
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .hero-p {
+        font-family:"Rethink Sans", serif;
+        font-size: 1.25rem;
+        color: black; 
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+
+}
+
+
+
+
+
+
 
 /* unklar wofür das war:
 .mb-0 {
