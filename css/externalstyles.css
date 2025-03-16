@@ -393,7 +393,7 @@ nav li:first-child {
     display: flex;  
     flex-wrap: wrap;
     width: 100%;
-    background-image: url("https://torstenkliesch.github.io/gef/images/Vegan-Festival");
+    background-image: url("https://torstenkliesch.github.io/gef/images/Vegan-Festival.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -421,7 +421,7 @@ nav li:first-child {
 }
 
 .schedule-table .pop-background-image {
-    background-image: url('https://torstenkliesch.github.io/gef/images/Vegan-Festival');
+    background-image: url('https://torstenkliesch.github.io/gef/images/Vegan-Festival.jpg');
     opacity: 80%;
 }
 
