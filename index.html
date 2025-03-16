@@ -54,7 +54,7 @@
     </ul>
 
     <ul>
-      <li><a href="index.html" class="Logo"><img src="images/GoodEnergyFestival_Logo.jpg" alt="Logo" height="26px"></a></li>
+      <li><a href="index.html" class="LogoNav"><img src="images/GoodEnergyFestival_Logo.jpg" alt="Logo" height="26px"></a></li>
       <li class="hideOnMobile"><a href="#">Home</a></li>
       <li class="hideOnMobile"><a href="#section_2">Programm</a></li>
       <li class="hideOnMobile"><a href="#section_3">Zeitplan</a></li>
@@ -175,7 +175,7 @@
               
           
               <div class="col-12 text-center">
-                  <!-- alt: <h2 class="mb-z">Zeitplan</h2>-->
+                  
 
                       <div class="table-responsive">
                           <table class="schedule-table table table-dark">
@@ -411,7 +411,17 @@
       <script src="js/jquery.sticky.js"></script>
       <script src="js/click-scroll.js"></script>
       <script src="js/custom.js"></script>
-      <script src="js/nav.js"></script>
+      <script>
+        function showSidebar(){
+          const sidebar = document.querySelector('.sidebar-gef')
+          sidebar.style.display = 'flex'
+        } 
+
+        function hideSidebar(){
+          const sidebar = document.querySelector('.sidebar-gef')
+          sidebar.style.display = 'none'
+        } 
+      </script>
       
   </main>
 </body>
