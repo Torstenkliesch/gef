@@ -60,8 +60,8 @@ nav li:first-child {
     position: fixed;
     top: 0;
     right: 0;
-    height: 40vh;
-    width: 350px;
+    height: 70vh;
+    width: 400px;
     z-index: 999;
     background-color: #F8EB22;
     /*
@@ -393,7 +393,7 @@ nav li:first-child {
     display: flex;  
     flex-wrap: wrap;
     width: 100%;
-    background-image: url("../images/Vegan-Festival.jpg");
+    background-image: url('../images/Vegan-Festival.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -421,41 +421,41 @@ nav li:first-child {
 }
 
 .schedule-table .pop-background-image {
-    background-image: url("../images/Vegan-Festival.jpg");
+    background-image: url('../images/Vegan-Festival.jpg');
     opacity: 80%;
 }
 
 .schedule-table .pop-background-image1 {
-    background-image: url("../images/walle1.jpg");
+    background-image: url('../images/walle1.jpg');
     opacity: 80%;
 }
 
 .schedule-table .pop-background-image2 {
-    background-image: url("../images/Balkonmodul_bauen.jpg");
+    background-image: url('../images/Balkonmodul_bauen.jpg');
     opacity: 80%;
     height: 250px;
 }
 
 .schedule-table .pop-background-image3 {
-    background-image: url("../images/yoga.jpeg");
+    background-image: url('../images/yoga.jpeg');
     opacity: 80%;
     height: 250px;
 }
 
 .schedule-table .pop-background-image4 {
-    background-image: url("../images/Fahrraddisko1.jpg");
+    background-image: url('../images/Fahrraddisko1.jpg');
     opacity: 80%;
     height: 250px;
 }
 
 .schedule-table .pop-background-image7 {
-    background-image: url("../images/concert-1854113_1280.jpg");
+    background-image: url('../images/concert-1854113_1280.jpg');
     opacity: 80%;
     height: 250px;
 }
 
 .schedule-table .pop-background-image6 {
-    background-image: url("../images/Vortrag.png");
+    background-image: url('../images/Vortrag.png');
     opacity: 80%;
     height: 250px;
 }
@@ -700,7 +700,7 @@ nav li:first-child {
     }
 }
 
-@media (max-width: 1094px){
+@media (max-width: 1094px) {
     
     .container-hero {
         margin-top: 60px;
@@ -709,8 +709,8 @@ nav li:first-child {
     }
 
 }
-@media (max-width: 400px){
-    .sidebar-gef{
+@media (max-width: 400px) {
+    .sidebar-gef {
         width: 100%;
     }
     .menu-button {
