@@ -437,19 +437,19 @@ nav li:first-child {
 }
 
 .schedule-table .pop-background-image3 {
-    background-image: url("https://torstenkliesch.github.io/gef/images/yoga");
+    background-image: url("gef/images/yoga.jpeg");
     opacity: 80%;
     height: 250px;
 }
 
 .schedule-table .pop-background-image4 {
-    background-image: url("https://torstenkliesch.github.io/gef/images/Fahrraddisko1");
+    background-image: url("../images/Fahrraddisko1.jpg");
     opacity: 80%;
     height: 250px;
 }
 
 .schedule-table .pop-background-image7 {
-    background-image: url("https://torstenkliesch.github.io/gef/images/concert-1854113_1280");
+    background-image: url('../images/concert-1854113_1280.jpg');
     opacity: 80%;
     height: 250px;
 }
@@ -533,10 +533,6 @@ nav li:first-child {
     color: black;
 }
 
-.iframe-anfahrt {
-    width: 100%;
-    height: 500px; 
-}
 
 
 /* Styles für Div Site-Footer-Top*/
@@ -722,10 +718,7 @@ nav li:first-child {
         display: block;
         height: 100px;
     }
-    .iframe-anfahrt {
-        width: 100%;
-        height: 50vh; 
-    }
+   
     .custom-video {
         height: 50vh;
     }
