@@ -421,35 +421,35 @@ nav li:first-child {
 }
 
 .schedule-table .pop-background-image {
-    background-image: url('https://torstenkliesch.github.io/gef/images/Vegan-Festival');
+    background-image: url("https://torstenkliesch.github.io/gef/images/Vegan-Festival");
     opacity: 80%;
 }
 
 .schedule-table .pop-background-image1 {
-    background-image: url("./images/walle1.jpg");
+    background-image: url("https://torstenkliesch.github.io/gef/images/walle1.jpg");
     opacity: 80%;
 }
 
 .schedule-table .pop-background-image2 {
-    background-image: url('https://torstenkliesch.github.io/gef/images/Balkonmodul_bauen.jpg');
+    background-image: url("https://torstenkliesch.github.io/gef/images/Balkonmodul_bauen.jpg");
     opacity: 80%;
     height: 250px;
 }
 
 .schedule-table .pop-background-image3 {
-    background-image: url('https://torstenkliesch.github.io/gef/images/yoga.jpeg');
+    background-image: url("https://torstenkliesch.github.io/gef/images/yoga.jpeg");
     opacity: 80%;
     height: 250px;
 }
 
 .schedule-table .pop-background-image4 {
-    background-image: url('https://torstenkliesch.github.io/gef/images/Fahrraddisko1.jpg');
+    background-image: url("https://torstenkliesch.github.io/gef/images/Fahrraddisko1.jpg");
     opacity: 80%;
     height: 250px;
 }
 
 .schedule-table .pop-background-image7 {
-    background-image: url('https://torstenkliesch.github.io/gef/images/concert-1854113_1280.jpg');
+    background-image: url("https://torstenkliesch.github.io/gef/images/concert-1854113_1280.jpg");
     opacity: 80%;
     height: 250px;
 }
@@ -724,10 +724,10 @@ nav li:first-child {
     }
     .iframe-anfahrt {
         width: 100%;
-        height: 40vh; 
+        height: 50vh; 
     }
     .custom-video {
-        min-height: 40vh;
+        height: 50vh;
     }
     .bands-overlay {
         
