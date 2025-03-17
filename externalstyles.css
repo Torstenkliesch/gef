@@ -426,36 +426,36 @@ nav li:first-child {
 }
 
 .schedule-table .pop-background-image1 {
-    background-image: url("https://torstenkliesch.github.io/gef/images/walle1.jpg");
+    background-image: url("https://torstenkliesch.github.io/gef/images/walle1");
     opacity: 80%;
 }
 
 .schedule-table .pop-background-image2 {
-    background-image: url("https://torstenkliesch.github.io/gef/images/Balkonmodul_bauen.jpg");
+    background-image: url("https://torstenkliesch.github.io/gef/images/Balkonmodul_bauen");
     opacity: 80%;
     height: 250px;
 }
 
 .schedule-table .pop-background-image3 {
-    background-image: url("https://torstenkliesch.github.io/gef/images/yoga.jpeg");
+    background-image: url("https://torstenkliesch.github.io/gef/images/yoga");
     opacity: 80%;
     height: 250px;
 }
 
 .schedule-table .pop-background-image4 {
-    background-image: url("https://torstenkliesch.github.io/gef/images/Fahrraddisko1.jpg");
+    background-image: url("https://torstenkliesch.github.io/gef/images/Fahrraddisko1");
     opacity: 80%;
     height: 250px;
 }
 
 .schedule-table .pop-background-image7 {
-    background-image: url("https://torstenkliesch.github.io/gef/images/concert-1854113_1280.jpg");
+    background-image: url("https://torstenkliesch.github.io/gef/images/concert-1854113_1280");
     opacity: 80%;
     height: 250px;
 }
 
 .schedule-table .pop-background-image6 {
-    background-image: url('https://torstenkliesch.github.io/gef/images/Vortrag.png');
+    background-image: url('https://torstenkliesch.github.io/gef/images/Vortrag');
     opacity: 80%;
     height: 250px;
 }
@@ -535,7 +535,7 @@ nav li:first-child {
 
 .iframe-anfahrt {
     width: 100%;
-    height: 300px; 
+    height: 500px; 
 }
 
 
